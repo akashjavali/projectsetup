@@ -24,17 +24,17 @@
 }
 
 @font-face {
-  font-family: 'Roboto_Regular';
+  font-family: 'Roboto-Regular';
   src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto_Bold';
+  font-family: 'Roboto-Bold';
   src: url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto_Medium';
+  font-family: 'Roboto-Medium';
   src: url("../fonts/Roboto-Medium.ttf") format("truetype");
 }
 
@@ -526,14 +526,8 @@ template {
 }
 
 body {
-  color: #222;
-  font-family: "Roboto_Regular";
-  font-size: 14px;
-}
-
-p {
-  color: #222;
-  font-family: "Roboto_Regular";
+  color: black;
+  font-family: "Roboto-Regular";
   font-size: 14px;
 }
 

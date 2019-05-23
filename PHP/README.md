@@ -7,7 +7,7 @@ Resources used for Web Application development
 
 *Plugin used*
 
-> 1] *- [Bootstrap 4.1](https://getbootstrap.com/)*
+> 1] *- [Bootstrap 4.3](https://getbootstrap.com/)*
 
 > 2] *- [fontawesome-free-4.7](https://fontawesome.com/v4.7.0/)*
 

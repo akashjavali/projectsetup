@@ -14,13 +14,12 @@
 <!-- Favicon -->
 <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
-<!-- Google Fonts -->
-<link href="" rel="stylesheet">
 
 <!-- Plugins -->
 <link rel="stylesheet" href="lib/bootstrap.min.css">
 <link rel="stylesheet" href="lib/swiper.min.css">
 <link rel="stylesheet" href="lib/owl.carousel.min.css">
+<link rel="stylesheet" href="lib/animate.min.css">
 <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
 
 <!-- Core Style Css -->
