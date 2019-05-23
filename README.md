@@ -22,7 +22,6 @@ Responsive mixins is very easy to use for example refer below.
 Max-width:
 @include max(767px) {
 
-yours styles go here;
 font-size: 14px
 
 }
@@ -30,7 +29,6 @@ font-size: 14px
 Min-width:
 @include min(768px) {
 
-yours styles go here;
 font-size: 14px
 
 }
@@ -39,8 +37,7 @@ If you want add styles from 768px to 991px :
 
 @include mq(768px, 991px) {
 
-yours styles go here;
-font-size: 14px
+font-size: 14px;
 
 }
 
