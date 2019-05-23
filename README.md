@@ -2,8 +2,7 @@
 Just a Normal Setup for front-end projects.
 
 1. Basic HTML 
-2. HTML with Component based
-3. PHP with HTML Component based
+2. PHP with HTML Component based
 
 Resources used for Web Application development
 
