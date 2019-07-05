@@ -1,8 +1,8 @@
 //colors
-$primary_color: #111111;
-$sub_primary_color: #cd9137;
-$secondary_color: #6c97c5;
-$sub_secondary_color: #d79839;
+$pc: #111111;
+$sub_pc: #cd9137;
+$sc: #6c97c5;
+$sub_sc: #d79839;
 
 $black: #000000;
 $white: #ffffff;
@@ -11,29 +11,29 @@ $fb_color: #2e64c1;
 $tw_color: #8dc4ea;
 $gp_color: #ff2626;
 
-$layp0: rgba($primary_color, 0);
-$layp1: rgba($primary_color, 0.1);
-$layp2: rgba($primary_color, 0.2);
-$layp3: rgba($primary_color, 0.3);
-$layp4: rgba($primary_color, 0.4);
-$layp5: rgba($primary_color, 0.5);
-$layp6: rgba($primary_color, 0.6);
-$layp7: rgba($primary_color, 0.7);
-$layp8: rgba($primary_color, 0.8);
-$layp9: rgba($primary_color, 0.9);
-$layp10: rgba($primary_color, 1);
+$layp0: rgba($pc, 0);
+$layp1: rgba($pc, 0.1);
+$layp2: rgba($pc, 0.2);
+$layp3: rgba($pc, 0.3);
+$layp4: rgba($pc, 0.4);
+$layp5: rgba($pc, 0.5);
+$layp6: rgba($pc, 0.6);
+$layp7: rgba($pc, 0.7);
+$layp8: rgba($pc, 0.8);
+$layp9: rgba($pc, 0.9);
+$layp10: rgba($pc, 1);
 
-$laysp0: rgba($sub_primary_color, 0);
-$laysp1: rgba($sub_primary_color, 0.1);
-$laysp2: rgba($sub_primary_color, 0.2);
-$laysp3: rgba($sub_primary_color, 0.3);
-$laysp4: rgba($sub_primary_color, 0.4);
-$laysp5: rgba($sub_primary_color, 0.5);
-$laysp6: rgba($sub_primary_color, 0.6);
-$laysp7: rgba($sub_primary_color, 0.7);
-$laysp8: rgba($sub_primary_color, 0.8);
-$laysp9: rgba($sub_primary_color, 0.9);
-$laysp10: rgba($sub_primary_color, 1);
+$laysp0: rgba($sub_pc, 0);
+$laysp1: rgba($sub_pc, 0.1);
+$laysp2: rgba($sub_pc, 0.2);
+$laysp3: rgba($sub_pc, 0.3);
+$laysp4: rgba($sub_pc, 0.4);
+$laysp5: rgba($sub_pc, 0.5);
+$laysp6: rgba($sub_pc, 0.6);
+$laysp7: rgba($sub_pc, 0.7);
+$laysp8: rgba($sub_pc, 0.8);
+$laysp9: rgba($sub_pc, 0.9);
+$laysp10: rgba($sub_pc, 1);
 
 $layb0: rgba($black, 0);
 $layb1: rgba($black, 0.1);

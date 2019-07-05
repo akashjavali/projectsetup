@@ -23,7 +23,8 @@
 @import 'variables',
 'mixins',
 '_reset',
-'_normalize';
+'_normalize',
+'_pages';
 
 
 /* Start Basics  */
@@ -40,19 +41,77 @@ body {
     font-size: 14px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $rb;
+}
+
+p,
+a,
+span,
+a:hover {
+    font-family: $rr;
+    color: inherit;
+    text-decoration: none;
+}
+
 img {
     width: 100%;
     height: auto;
 }
 
-span,
-a,
-a:hover {
-    color: inherit;
-    text-decoration: none;
-}
+
 
 /* Start Basics ends */
+
+
+/* Generic Classes */
+
+.ti {
+    font-style: italic;
+}
+
+.tc {
+    text-align: center;
+}
+
+.pc {
+    color: $pc;
+}
+
+.sub_pc {
+    color: $sub_pc;
+}
+
+.sc {
+    color: $sc;
+}
+
+.sub_sc {
+    color: $sub_sc;
+}
+
+.pc_bg {
+    background: $pc;
+}
+
+.sub_pc_bg {
+    background: $sub_pc;
+}
+
+.sc_bg {
+    background: $sc;
+}
+
+.sub_sc_bg {
+    background: $sub_sc;
+}
+
+
 
 
 
