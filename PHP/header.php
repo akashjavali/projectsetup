@@ -12,7 +12,7 @@
 <title>New Project</title>
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+<!-- <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" /> -->
 
 
 <!-- Plugins -->
