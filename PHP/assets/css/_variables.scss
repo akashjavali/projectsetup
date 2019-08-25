@@ -110,12 +110,29 @@ $fas_color: #7f8d8d;
 
 ;
 
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+;
+
+@font-face {
+    font-family: 'Roboto-SemiBold';
+    src: url('../fonts/Roboto-SemiBold.ttf') format('truetype');
+}
+
+;
+
 
 //font family
-$rl: 'Roboto-Light';
-$rr: 'Roboto-Regular';
-$rb: 'Roboto-Bold';
-$rm: 'Roboto-Medium';
+$fl: 'Roboto-Light';
+$fr: 'Roboto-Regular';
+$fb: 'Roboto-Bold';
+$fm: 'Roboto-Medium';
+$ft: 'Roboto-Thin';
+$fsb: 'Roboto-SemiBold';
+
 
 
 // media query

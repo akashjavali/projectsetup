@@ -38,6 +38,16 @@
   src: url("../fonts/Roboto-Medium.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url("../fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto-SemiBold';
+  src: url("../fonts/Roboto-SemiBold.ttf") format("truetype");
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
