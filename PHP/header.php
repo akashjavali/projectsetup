@@ -24,4 +24,4 @@
 <link rel="stylesheet" href="lib/Font-Awesome-4.7.0/css/font-awesome.min.css">
 
 <!-- Core Style Css -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/main.min.css">
