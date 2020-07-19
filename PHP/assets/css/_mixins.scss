@@ -6,12 +6,11 @@
     background-position: $position;
 }
 
-
 //clearfix
 
 @mixin clearfix {
     &after {
-        content: "";
+        content: '';
         display: block;
         clear: both;
     }
@@ -31,15 +30,14 @@
     }
 }
 
-
 @mixin mq($args...) {
-    @if length($args)==1 {
+    @if length($args) ==1 {
         @media screen and (max-width: nth($args, 1)) {
             @content;
         }
     }
 
-    @if length($args)==2 {
+    @if length($args) ==2 {
         @media screen and (max-width: nth($args, 1)) and (min-width: nth($args, 2)) {
             @content;
         }
@@ -51,21 +49,16 @@
         @media (max-width: 1600px) {
             @content;
         }
-    }
-
-    @else if $point==mama-bear {
+    } @else if $point==mama-bear {
         @media (max-width: 1250px) {
             @content;
         }
-    }
-
-    @else if $point==baby-bear {
+    } @else if $point==baby-bear {
         @media (max-width: 600px) {
             @content;
         }
     }
 }
-
 
 // filter
 // --------------------------------------------------
@@ -338,7 +331,6 @@
     column-gap: $columnGap;
 }
 
-
 // keyframes
 // --------------------------------------------------
 @mixin animation($animate...) {
@@ -349,7 +341,7 @@
         $animations: #{$animations + nth($animate, $i)};
 
         @if $i < $max {
-            $animations: #{$animations + ", "};
+            $animations: #{$animations + ', '};
         }
     }
 

@@ -1,6 +1,5 @@
 <footer class="">
     <div class="container">
-        <!-- <p>© 2019 <b>Project Name</b>. All Rights Reserved.</p> -->
     </div>
 </footer>
 
@@ -20,12 +19,6 @@
 <script src="lib/Swiper JS/swiper.min.js"></script>
 
 <script src="lib/Owl Carousel/owl.carousel.min.js"></script>
-
-<script src="lib/wow.min.js"></script>
-
-<script src="lib/jquery.waypoints.min.js"></script>
-
-<script src="lib/jquery.counterup.min.js"></script>
 
 
 <!-- custom scripts -->

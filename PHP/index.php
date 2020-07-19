@@ -8,32 +8,27 @@
 <body>
 
     <header>
+
         <!-- Nav -->
+
         <?php include "nav.php";?>
+
         <!-- Nav ends -->
+
     </header>
 
 
 
+    <!-- Main starts -->
+
     <main>
-        <section class="" data-scroll-index="0">
+        <section class="">
             <div class="container">
-                <article>
-
-                </article>
-            </div>
-        </section>
-
-
-
-        <section class="" data-scroll-index="1">
-            <div class="container">
-                <article>
-
-                </article>
             </div>
         </section>
     </main>
+
+    <!-- Main ends -->
 
 
 

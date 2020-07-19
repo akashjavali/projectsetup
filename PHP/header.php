@@ -20,7 +20,6 @@
 <link rel="stylesheet" href="lib/Swiper JS/swiper.min.css">
 <link rel="stylesheet" href="lib/Owl Carousel/owl.carousel.min.css">
 <link rel="stylesheet" href="lib/Owl Carousel/owl.theme.default.min.css">
-<link rel="stylesheet" href="lib/animate.min.css">
 <link rel="stylesheet" href="lib/Font-Awesome-4.7.0/css/font-awesome.min.css">
 
 <!-- Core Style Css -->

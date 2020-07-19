@@ -1,5 +1,8 @@
 // sass map get function
-$color:(black: #000, white: #fff);
+$color: (
+    black: #000,
+    white: #fff,
+);
 
 //colors
 $pc: #111111;
@@ -90,43 +93,30 @@ $fas_color: #7f8d8d;
     src: url('../fonts/Roboto-Light.ttf') format('truetype');
 }
 
-;
-
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
-
-;
 
 @font-face {
     font-family: 'Roboto-Bold';
     src: url('../fonts/Roboto-Bold.ttf') format('truetype');
 }
 
-;
-
 @font-face {
     font-family: 'Roboto-Medium';
     src: url('../fonts/Roboto-Medium.ttf') format('truetype');
 }
-
-;
 
 @font-face {
     font-family: 'Roboto-Thin';
     src: url('../fonts/Roboto-Thin.ttf') format('truetype');
 }
 
-;
-
 @font-face {
     font-family: 'Roboto-SemiBold';
     src: url('../fonts/Roboto-SemiBold.ttf') format('truetype');
 }
-
-;
-
 
 //font family
 $fl: 'Roboto-Light';
@@ -136,28 +126,24 @@ $fm: 'Roboto-Medium';
 $ft: 'Roboto-Thin';
 $fsb: 'Roboto-SemiBold';
 
-
-
 // media query
 // $resize: "screen and (max-width: 377px)";
-$tablet: "screen and (max-width: 1024px) and (min-width: 768px)";
-$mobile: "screen and (max-width: 640px)";
-$iphoneplus: "screen and (min-width: 412px) and (max-width: 736px) and (max-device-pixel-ratio: 3)";
-$smallMobile: "screen and (max-width: 320px)";
-$otherMobile: "screen and (max-width: 360px)";
-$largescreen: "screen and (min-width: 1920px)";
-$hdmonitor: "screen and (min-width: 1600px)";
+$tablet: 'screen and (max-width: 1024px) and (min-width: 768px)';
+$mobile: 'screen and (max-width: 640px)';
+$iphoneplus: 'screen and (min-width: 412px) and (max-width: 736px) and (max-device-pixel-ratio: 3)';
+$smallMobile: 'screen and (max-width: 320px)';
+$otherMobile: 'screen and (max-width: 360px)';
+$largescreen: 'screen and (min-width: 1920px)';
+$hdmonitor: 'screen and (min-width: 1600px)';
 
+$mq5b: 'screen and (max-width: 565px)';
+$mq7b: 'screen and (max-width: 767px)';
+$mq9b: 'screen and (max-width: 991px)';
+$mq12b: 'screen and (max-width: 1199px)';
 
-$mq5b: "screen and (max-width: 565px)";
-$mq7b: "screen and (max-width: 767px)";
-$mq9b: "screen and (max-width: 991px)";
-$mq12b: "screen and (max-width: 1199px)";
-
-$mq5a: "screen and (min-width: 566px)";
-$mq7a: "screen and (min-width: 768px)";
-$mq9a: "screen and (min-width: 992px)";
-$mq12a: "screen and (min-width: 1200px)";
-
+$mq5a: 'screen and (min-width: 566px)';
+$mq7a: 'screen and (min-width: 768px)';
+$mq9a: 'screen and (min-width: 992px)';
+$mq12a: 'screen and (min-width: 1200px)';
 
 //variables ends here
