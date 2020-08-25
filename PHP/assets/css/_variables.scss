@@ -88,43 +88,14 @@ $fco_color: #93a4a5;
 $fas_color: #7f8d8d;
 
 //font attach
-@font-face {
-    font-family: 'Roboto-Light';
-    src: url('../fonts/Roboto-Light.ttf') format('truetype');
-}
 
 @font-face {
     font-family: 'Roboto-Regular';
     src: url('../fonts/Roboto-Regular.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Medium';
-    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-Thin';
-    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Roboto-SemiBold';
-    src: url('../fonts/Roboto-SemiBold.ttf') format('truetype');
-}
-
 //font family
-$fl: 'Roboto-Light';
 $fr: 'Roboto-Regular';
-$fb: 'Roboto-Bold';
-$fm: 'Roboto-Medium';
-$ft: 'Roboto-Thin';
-$fsb: 'Roboto-SemiBold';
 
 // media query
 // $resize: "screen and (max-width: 377px)";
