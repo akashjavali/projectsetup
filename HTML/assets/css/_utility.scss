@@ -2,7 +2,7 @@
 
 /**
 * 
-*   1. FONT COLORS
+*   FONT COLORS
 *
 **/
 
@@ -11,7 +11,7 @@
 }
 
 .sub_pc {
-    color: $sub_pc;
+    color: $spc;
 }
 
 .sc {
@@ -19,12 +19,12 @@
 }
 
 .sub_sc {
-    color: $sub_sc;
+    color: $ssc;
 }
 
 /**
 * 
-*   2. BACKGROUND COLORS
+*   BACKGROUND COLORS
 *
 **/
 
@@ -33,7 +33,7 @@
 }
 
 .sub_pc_bg {
-    background: $sub_pc;
+    background: $spc;
 }
 
 .sc_bg {
@@ -41,12 +41,12 @@
 }
 
 .sub_sc_bg {
-    background: $sub_sc;
+    background: $ssc;
 }
 
 /**
 * 
-*   3. MISC
+*   MISC
 *
 **/
 
@@ -57,5 +57,11 @@
 .tc {
     text-align: center;
 }
+
+/**
+* 
+*   Custom Buttons
+*
+**/
 
 /* Utility Classes ends */
