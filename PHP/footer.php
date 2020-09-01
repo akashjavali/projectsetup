@@ -18,8 +18,6 @@
 
 <script src="lib/Swiper JS/swiper.min.js"></script>
 
-<script src="lib/Owl Carousel/owl.carousel.min.js"></script>
-
 
 <!-- custom scripts -->
 <script src="assets/js/main.js"></script>
