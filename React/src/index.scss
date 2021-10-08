@@ -1,7 +1,6 @@
-@font-face {
-  font-family: Manrope;
-  src: url("./assets/fonts/Manrope-Regular.ttf");
-}
+@import './theme/scss/_mixins.scss';
+@import './theme/scss/_variables.scss';
+@import './theme/scss/_utility.scss';
 
 body {
   margin: 0;

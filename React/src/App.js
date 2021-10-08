@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
+import TopNavbar from "./views/components/Navbar/topNavbar/Navbar"
+import SideBar from "./views/components/Navbar/SideNavbar/Sidebar"
 import Home from './views/screens/Home'
 // import Test from './views/screens/Test'
 
