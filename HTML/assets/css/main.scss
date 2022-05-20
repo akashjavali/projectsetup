@@ -17,9 +17,6 @@
  ***/
 
 @import 'variables', 'mixins', '_utility';
-@import url('../../lib/Bootstrap/bootstrap.min.css');
-@import url('../../lib/Swiper JS/swiper.min.css');
-@import url('../../lib/animate.min.css');
 
 /*** 
 
@@ -50,6 +47,34 @@ font-family: 'Roboto', sans-serif;
     outline: none;
     font-size: 100%;
     line-height: inherit;
+
+    // &::-webkit-scrollbar {
+    //     width: 9px;
+    // }
+
+    // &::-webkit-scrollbar-track {
+    //     -webkit-border-radius: 5px;
+    //     border-radius: 5px;
+    //     background: rgba(0, 0, 0, 0.1);
+    // }
+
+    // &::-webkit-scrollbar-thumb {
+    //     -webkit-border-radius: 5px;
+    //     border-radius: 5px;
+    //     background: $pc;
+    // }
+
+    // &::-webkit-scrollbar-thumb:hover {
+    //     background: grey;
+    // }
+
+    // &::-webkit-scrollbar-thumb:hover {
+    //     background: grey;
+    // }
+
+    // &::-webkit-scrollbar-thumb:window-inactive {
+    //     background: $pc;
+    // }
 }
 
 /*** 
@@ -60,8 +85,14 @@ font-family: 'Roboto', sans-serif;
  
   ***/
 
+html {
+    /* 62.5% of 16px browser font size is 10px */
+    font-size: 62.5%;
+}
+
 body {
-    font-size: 16px;
+    /* 16px */
+    font-size: 1.6rem;
     color: black;
     line-height: 1.7em;
     font-weight: 400;
@@ -125,7 +156,6 @@ p {
 
 ul,
 li {
-    list-style: none;
     padding: 0px;
     margin: 0px;
 }
@@ -137,7 +167,122 @@ figure {
 /*** 
  
  ====================================================================
+     Reused styles
+ ====================================================================
+ 
+ ***/
+
+//  .height_fix {
+//     height: 155px;
+// }
+
+
+/* Loader */
+
+// .no-js #loader {
+//     display: none;
+// }
+
+// .js #loader {
+//     display: block;
+//     position: absolute;
+//     left: 100px;
+//     top: 0;
+// }
+
+// .se-pre-con {
+//     position: fixed;
+//     left: 0px;
+//     top: 0px;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 9999;
+//     background: url(../images/loader.gif) center no-repeat #f1f2f3;
+//     background-size: 80px;
+// }
+
+// /* navbar onscroll color change css */
+// .change_navColor {
+//     background: white;
+//     @include box-shadow(0px 2px 10px rgba(64, 0, 134, 0.0708861));
+//     animation: slideInDown 1s both;
+
+//     .navbar-toggler {
+//         svg {
+//             @include max(767px) {
+//                 fill: black;
+//             }
+//         }
+//     }
+// }
+
+
+// @-webkit-keyframes slideInDown {
+//     0% {
+//         -webkit-transform: translate3d(0, -100%, 0);
+//         transform: translate3d(0, -100%, 0);
+//         visibility: visible
+//     }
+
+//     to {
+//         -webkit-transform: translateZ(0);
+//         transform: translateZ(0)
+//     }
+// }
+
+// @keyframes slideInDown {
+//     0% {
+//         -webkit-transform: translate3d(0, -100%, 0);
+//         transform: translate3d(0, -100%, 0);
+//         visibility: visible
+//     }
+
+//     to {
+//         -webkit-transform: translateZ(0);
+//         transform: translateZ(0)
+//     }
+// }
+
+// .slideInDown {
+//     -webkit-animation-name: slideInDown;
+//     animation-name: slideInDown
+// }
+
+// /* Scroll to top */
+// .scroll_top_icon {
+//     position: fixed;
+//     right: 20px;
+//     bottom: -50px;
+//     font-size: 16px;
+//     cursor: pointer;
+//     color: black;
+//     @include transition(0.3s linear);
+//     width: 35px;
+//     height: 35px;
+//     border-radius: 50%;
+//     background: $pc;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     svg {
+//         width: 15px;
+//         fill: white;
+//     }
+
+//     &:hover {
+//         background: $sc;
+//     }
+
+// }
+
+
+/*** 
+ 
+ ====================================================================
      Main Nav style
  ====================================================================
  
  ***/
+
+ 
